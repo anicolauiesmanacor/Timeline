@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5696112238256135827
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5696112238256135825}
+  - component: {fileID: 5696112238256135826}
+  m_Layer: 0
+  m_Name: _GameLogic
+  m_TagString: gameLogic
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5696112238256135825
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5696112238256135827}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1280, y: 720, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5696112238256135826
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5696112238256135827}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ddf6a218ff0f5943891f554878621e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isMusicEnabled: 0
+  isFXEnabled: 0
+  musicVolume: 0
+  fxVolume: 0
+  difficulty: 0
+  cardsPlaced: 0
+  isCardInGame: 0
+  isPlacedInCardSpot: 0
+  isGameSolved: 0
+  cardsCount: 0
+  cardsInLine: 0
+  currentLevel: 0
+  cardsSortedByYear: 
+  cardsInTimeLine: []
+  sndManager: {fileID: 6729257430798187631, guid: 5a8c7a3a189bea14987345f257ac12fb, type: 3}
+  numLifes: 0
+  lifesIcon: {fileID: 180689279889897096, guid: 3f2843349be59234482319b70b8aa518, type: 3}
+  lifeGreen: {fileID: 21300000, guid: a2713c755e9a4bb49ac02d56114a819a, type: 3}
+  lifeRed: {fileID: 21300000, guid: 1d90f6187a8beaf4986e3a7dd7723d43, type: 3}
+  gameOver: 0
+  LifeBackPanel: {fileID: 5914428868013768505, guid: 43990b0db7186d645af43267cfb919de, type: 3}

@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - music
+  - options
+  - gameLogic
+  - lifes
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Back
+  - Water
+  - UI
+  - Front
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Back
+    uniqueID: 684378819
+    locked: 0
+  - name: Front
+    uniqueID: 3997803547
+    locked: 0
